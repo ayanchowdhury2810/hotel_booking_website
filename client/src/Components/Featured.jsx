@@ -3,14 +3,14 @@ import './Featured.css';
 
 function Featured() {
   const { data, loading, error, reFetch } = useFetch(
-    '/hotels/countByCity?cities=Delhi,Noida'
+    '/hotels/countByCity?cities=Delhi,Noida,Gurgaon,Kolkata'
   );
-  console.log(data);
+  // console.log(data);
 
   return (
     <div className="featured">
       {loading ? (
-        'Loading Please Wait'
+        'Loading Please Wait...'
       ) : (
         <>
           <div className="featuredItem">
@@ -30,7 +30,7 @@ function Featured() {
               src="https://cf.bstatic.com/xdata/images/city/max500/690334.webp?k=b99df435f06a15a1568ddd5f55d239507c0156985577681ab91274f917af6dbb&o="
             />
             <div className="featuredTitles">
-              <h1>Delhi</h1>
+              <h1>Noida</h1>
               <h2>{data[1]}</h2>
             </div>
           </div>
@@ -41,7 +41,7 @@ function Featured() {
               src="https://cf.bstatic.com/xdata/images/city/max500/689422.webp?k=2595c93e7e067b9ba95f90713f80ba6e5fa88a66e6e55600bd27a5128808fdf2&o="
             />
             <div className="featuredTitles">
-              <h1>Delhi</h1>
+              <h1>Gurgaon</h1>
               <h2>{data[2]}</h2>
             </div>
           </div>
@@ -52,7 +52,7 @@ function Featured() {
               src="https://cf.bstatic.com/xdata/images/city/max500/689422.webp?k=2595c93e7e067b9ba95f90713f80ba6e5fa88a66e6e55600bd27a5128808fdf2&o="
             />
             <div className="featuredTitles">
-              <h1>Noida</h1>
+              <h1>Kolkata</h1>
               <h2>{data[3]}</h2>
             </div>
           </div>
