@@ -11,7 +11,7 @@ function FeaturedProperties() {
         <>
           {data.map((item) => (
             <div className="fpItem" key={item._id}>
-              <img className="fpImg" src={item.photos} />
+              <img className="fpImg" src={item.photos[0]} />
               <span className="fpName">{item.name}</span>
               <span className="fpCity">{item.city}</span>
               <span className="fpPrice">
