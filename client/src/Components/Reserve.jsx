@@ -5,6 +5,7 @@ import React, { useContext, useState } from 'react';
 import { SearchContext } from '../context/SearchContext';
 import useFetch from '../hooks/useFetch';
 import './Reserve.css';
+import { useNavigate } from 'react-router-dom';
 
 function Reserve({ setOpen, hotelId }) {
   const [selectedRooms, setSelectedRooms] = useState([]);
@@ -44,6 +45,7 @@ function Reserve({ setOpen, hotelId }) {
     );
   };
 
+  const navigate = useNavigate();
   const handleClick = async () => {
     try {
       await Promise.all(
@@ -54,7 +56,11 @@ function Reserve({ setOpen, hotelId }) {
           return res.data;
         })
       );
-    } catch (e) {}
+      setOpen(false);
+      navigate('/');
+    } catch (e) {
+      console.log(e);
+    }
   };
 
   return (
