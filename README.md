@@ -5,9 +5,12 @@ Hotel booking website
 
 ## Home Page
 
-<img width="430" alt="image" src="https://user-images.githubusercontent.com/72807747/204229402-9461702d-179b-49eb-a518-c3fb9ec9e496.png">
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/72807747/204296757-e4b24915-bb08-4703-9fd4-ab399c8818c8.png">
 
-<img width="430" alt="image" src="https://user-images.githubusercontent.com/72807747/204229612-82315c80-5dcf-4129-8c44-592136fe5a18.png">
+<img width="949" alt="image" src="https://user-images.githubusercontent.com/72807747/204296822-a4170ed1-ee8e-4709-bf80-8e5355446aa9.png">
+
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/72807747/204296882-272818ea-019d-4fbf-b860-05a42ad4fa62.png">
+
 
 ## Hotel List Page
 
