@@ -14,8 +14,8 @@ Hotel booking website
 
 ## Hotel List Page
 
-<img width="740" alt="image" src="https://user-images.githubusercontent.com/72807747/204229669-1d5b621a-f586-4eea-9cc1-3196e9c3698f.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/72807747/204297340-f6ccb434-30c3-4dc9-b05a-d8d6de323abe.png">
 
 ## Hotel Description Page
 
-<img width="756" alt="image" src="https://user-images.githubusercontent.com/72807747/204229777-e64a7420-7ce6-45b4-b785-7b14d233361a.png">
+<img width="948" alt="image" src="https://user-images.githubusercontent.com/72807747/204297429-ec39608b-e12c-4b48-a35b-9825fc904a91.png">
