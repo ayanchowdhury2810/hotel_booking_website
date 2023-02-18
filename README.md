@@ -4,9 +4,9 @@
 ## Hotel booking website
 
 ## Tech Stack:
-Frontend - ReactJS
-Backend - ExpressJS
-Database - MongoDB
+Frontend - ReactJS\
+Backend - ExpressJS\
+Database - MongoDB\
 
 ## Home Page
 
