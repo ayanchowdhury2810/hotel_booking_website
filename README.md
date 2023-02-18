@@ -1,7 +1,12 @@
 # hotel_booking-website
 
-Hotel booking website
 
+## Hotel booking website
+
+## Tech Stack-
+Frontend - ReactJS
+Backend - ExpressJS
+Database - MongoDB
 
 ## Home Page
 
