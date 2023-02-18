@@ -3,7 +3,7 @@
 
 ## Hotel booking website
 
-## Tech Stack-
+## Tech Stack:
 Frontend - ReactJS
 Backend - ExpressJS
 Database - MongoDB
