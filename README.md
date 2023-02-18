@@ -6,7 +6,7 @@
 ## Tech Stack:
 Frontend - ReactJS\
 Backend - ExpressJS\
-Database - MongoDB\
+Database - MongoDB
 
 ## Home Page
 
